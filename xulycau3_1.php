@@ -4,7 +4,6 @@
     $maphong = $_GET["maphong"];
     $sql = "INSERT INTO thue(MaHD, MaPhong) 
             VALUES ('$mahd', '$maphong')";
-
     if($connect->query($sql)) {
         echo "Thành công";
     } else {
